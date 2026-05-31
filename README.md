@@ -7,7 +7,7 @@ Selfhosted server backup & restore. Saves roles, emojis, channels, permissions, 
 
 ## Setup
 ```bash
-pip install discord.py aiohttp colorama
+pip install -r requirements.txt
 export DISCORD_TOKEN="your-bot-token"
 python backup.py
 ```
