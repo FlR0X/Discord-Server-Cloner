@@ -20,7 +20,7 @@ MAX_WORKERS = 5 – concurrent save/restore tasks
 HTTP Type Proxys support: add proxys.txt (one proxy per line, format http://user:pass@host:port or http://host:port)
 
 ## Commands
-/save <slot> [options]
+**/save <slot> [options]**
 Save server to a slot (1–3). Options (all default True):
 
 include_roles
@@ -35,13 +35,13 @@ include_icon
 
 include_server_settings
 
-/load <slot> [options]
+**/load <slot> [options]**
 Deletes all current roles/emojis/channels then restores from slot. Same options.
 
-/slots
+**/slots**
 Shows saved backups (server name, ID, timestamp, size) as an embed.
 
-Notes
+## Notes
 Slots are global; backups can be loaded onto any server the bot manages.
 
 Roles above the bot, emoji limits (boost level), and rate limits may cause partial failures.
